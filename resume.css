@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    max-width: 946px;
+    margin: 40px auto;
+    padding: 26px;
+    background-color: rgb(243, 243, 243);
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+section img{
+    width: 140px;
+}   
+.my-name{
+    font-size: 48px;
+}
+.domain{
+    font-size: 26px;
+    color: #236FB2;
+    font-weight: 300;
+}
+.link{
+    display: flex;
+    column-gap: 10px;
+}
+.link-item{
+    align-items: center;
+    display: flex;
+    column-gap: 5px;
+}
+.link-item svg{
+    width: 15px;
+}
+.link-item a{
+    color: #323232;
+    text-decoration: none;
+}
+hr{
+    margin: 20px 0;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 18px;
+}
+.job-title-company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job-title-company>div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+
+}
+.skills-items {
+    display: flex;
+    column-gap: 100px;
+}
+
+.skills>div:nth-child(2){
+    margin-top: 20px;
+}
+.image img{
+    margin: 0 30px;
+    width: 50px;
+}
+.interst {
+    display: flex;
+    align-items: center;
+}
+.interst .section-title{
+    margin-right: 50px;
+}
+.interst img{
+    width: 60px;
+    margin: 0 40px;
+    align-items: center;
+}
+.more{
+    margin: 10px 0;
+}
